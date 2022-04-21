@@ -3,3 +3,22 @@
         display: flex;
     }
 }
+
+.dashboard-summary-card {
+    &__title {
+        font-size: 1.5rem;
+    }
+    &__detail-card {
+        margin: 0.5rem 0;
+        h5 {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: gray;
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+}
